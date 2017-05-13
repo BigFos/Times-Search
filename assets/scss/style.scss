@@ -1,0 +1,30 @@
+
+@import 'reset/reset';
+
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+header {
+	width: 100%;
+	background: #20315A;
+	color: #fff;
+
+	h1 {
+		text-align: center;
+		font-size: 3.1em;
+		padding: 20px 0;
+	}
+}
+
+.panel-primary {
+	border: 1px solid #2c3e50;
+	border-radius: 4px;
+
+	h2 {
+		background: #2c3e50;
+		color: #fff;
+		padding: 10px 0;
+		font-weight: bold;
+	}
+}
