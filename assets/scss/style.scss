@@ -21,7 +21,7 @@ header {
 	border: 1px solid #2c3e50;
 	border-radius: 4px;
 	width: 65%;
-	margin: 0 auto;
+	margin: 30px auto;
 
 	h2 {
 		background: #2c3e50;
@@ -29,13 +29,20 @@ header {
 		padding: 10px 0;
 		font-weight: bold;
 	}
+
+	.push-top {
+		padding-top: 20px;
+	}
 }
 
 .form-group {
 	margin: 0 auto;
 	width: 90%;
 
-	&:last-child,
+	&:last-child {
+		padding: 20px;
+	}
+
 	&:first-child {
 		padding: 20px;
 	}

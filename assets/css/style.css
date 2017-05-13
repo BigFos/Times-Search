@@ -67,7 +67,7 @@ header h1 {
   border: 1px solid #2c3e50;
   border-radius: 4px;
   width: 65%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .panel-primary h2 {
   background: #2c3e50;
@@ -75,12 +75,18 @@ header h1 {
   padding: 10px 0;
   font-weight: bold;
 }
+.panel-primary .push-top {
+  padding-top: 20px;
+}
 
 .form-group {
   margin: 0 auto;
   width: 90%;
 }
-.form-group:last-child, .form-group:first-child {
+.form-group:last-child {
+  padding: 20px;
+}
+.form-group:first-child {
   padding: 20px;
 }
 .form-group input {
