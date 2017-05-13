@@ -28,3 +28,18 @@ header {
 		font-weight: bold;
 	}
 }
+
+.form-group {
+	margin: 0 auto;
+	width: 90%;
+
+	input {
+		width: 100%;
+		border: 1px solid #dce4ec;
+		border-radius: 4px;
+		margin: 10px 0;
+		height: 45px;
+		font-size: 15px;
+		padding: 0 10px;
+	}
+}
