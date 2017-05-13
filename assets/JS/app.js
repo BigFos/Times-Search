@@ -1,8 +1,12 @@
-var apiKey = "664e215dd5a34926b033d389481d8095"
+var apiKey = "664e215dd5a34926b033d389481d8095";
 var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + apiKey + "&q=";
+searchTerm = "india";
+var x = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + apiKey + "&q=" + searchTerm;
+console.log(x);
+
 
 $.ajax({
-  url: queryURL,
+  url: x,
   method: 'GET',
 }).done(function(result) {
   console.log(result);
