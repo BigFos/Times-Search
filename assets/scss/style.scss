@@ -20,6 +20,8 @@ header {
 .panel-primary {
 	border: 1px solid #2c3e50;
 	border-radius: 4px;
+	width: 65%;
+	margin: 0 auto;
 
 	h2 {
 		background: #2c3e50;
@@ -32,6 +34,11 @@ header {
 .form-group {
 	margin: 0 auto;
 	width: 90%;
+
+	&:last-child,
+	&:first-child {
+		padding: 20px;
+	}
 
 	input {
 		width: 100%;

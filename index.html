@@ -12,20 +12,30 @@
 		<div class="panel-primary">
 			<h2>Search Parameters</h2>
 			<div class="form-group">
-				<label></label>
-				<input type="" name="">
+				<label>Search Term:</label>
+				<input type="text" name="search">
 			</div>
 			<div class="form-group">
-				<label></label>
-				<input type="" name="">
+				<label>Number of Records:</label>
+				<select class="form-control" id="numRecordsSelect">
+					<option value="1">1</option>
+					<option value="5" selected="">5</option>
+					<option value="10">10</option>
+				</select>
 			</div>
 			<div class="form-group">
-				<label></label>
-				<input type="" name="">
+				<label>Start Year:</label>
+				<input type="text" name="start">
 			</div>
 			<div class="form-group">
-				<label></label>
-				<input type="" name="">
+				<label>End Year</label>
+				<input type="text" name="end">
+			</div>
+
+			<div class="form-group">
+				<button type="submit" class="btn btn-default" id="runSearch"><i class="fa fa-search"></i> Search</button>
+				
+				<button type="button" class="btn btn-default" id="clearAll"><i class="fa fa-trash"></i> Clear Results</button>
 			</div>
 		</div>
 	</main>
